@@ -1,6 +1,3 @@
-import os
-os.chdir('C:\\Users\\toshi\\Documents\\Georges\\Python\\Master1\\Projet_NTE\\')
-
 from neutron_class import systeme_neutrons
 import matplotlib.pyplot as plt
 from math import log, exp
