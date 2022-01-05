@@ -2,9 +2,6 @@ from neutron_class import systeme_neutrons
 import matplotlib.pyplot as plt
 from math import log, exp
 
-os.chdir('C:\\Users\\toshi\\Documents\\Georges\\Python\\Master1\\Projet_NTE\\data_psit\\tests2')
-
-
 
 fichiers_ =  [['psit_pfis0_t5000.txt'     , '0'      ],
               ['psit_pfis00005_t5000.txt' , '0.00005'],
