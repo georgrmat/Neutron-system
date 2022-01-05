@@ -1,4 +1,3 @@
-import os
 import numpy as np
 from random import random, randint, uniform, choice
 from matplotlib import pyplot as plt
@@ -170,7 +169,6 @@ class systeme_neutrons:
 
         # avec animation
         else:
-            #os.chdir('C:\\Users\\toshi\\Documents\\Georges\\Python\\Master1\\Projet_NTE\\Capt_ecran')
             plt.xlim(self.lim['gauche'], self.lim['droite'])
             plt.ylim(self.lim['bas'], self.lim['haut'])
 
